@@ -16,8 +16,9 @@
     overflow: hidden;
     transition: background-color 600ms ease;
 }
+
 #slider-bar.verified {
-    background-color: #84ad74; 
+    background-color: #84ad74;
 }
 
 #slider {
@@ -35,9 +36,11 @@
     left: 0;
     bottom: 0;
 }
+
 #slider.initial {
     transition: margin-left 250ms ease;
 }
+
 #slider.verified {
     transition: opacity 250ms ease, margin-left 1s ease;
     opacity: 0;
@@ -55,9 +58,11 @@
     user-select: none;
     transition: opacity 600ms ease;
 }
+
 #verified-msg {
     opacity: 0;
 }
+
 #verified-msg.verified {
-    opacity: 1; 
+    opacity: 1;
 }
